@@ -1,0 +1,90 @@
+site_name: Microsoft AI-102 Certification Study Guide
+
+repo_name: andrew-kelleher/az102-studyguide-poc
+# TODO update to correct URL
+repo_url: https://github.com/squidfunk/mkdocs-material
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+    # scheme: slate
+    # primary: indigo
+    
+  features:
+    # - navigation.expand
+    - navigation.path
+    - navigation.top
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Start Here: index.md
+  - Skills Measured: skills_measured.md
+  - Microsoft Learn: ms_learn.md
+  - Other Courses: other_courses.md
+  - Exam topics:
+    - Plan and manage an Azure AI solution (20-25%):
+      - Select the appropriate Azure AI Foundry services: plan/select_ai_foundry_services.md
+      - Plan, create and deploy an Azure AI Foundry service: plan/plan_create_deploy_ai_foundry.md
+      - Manage, monitor, and secure an Azure AI Foundry Service: plan/manage_monitor_secure_ai_foundry.md
+      - Implement AI solutions responsibly: plan/implement_ai_responsibly.md
+    - Implement generative AI solutions (15-20%):
+      - Build generative AI solutions with Azure AI Foundry: genai/build_generative_ai_solutions_with_azure_ai_foundry.md
+      - Use Azure OpenAI in Foundry Models to generate content: genai/use_openai_foundry_models_generate_content.md
+      - Optimize and operationalize a generative AI solution: genai/optimize_operationalize_genai_solution.md
+    - Implement an agentic solution (5-10%):
+      - Create custom agents: agentic/create_custom_agents.md
+    - Implement computer vision solutions (10-15%):
+      - Analyze images: vision/analyze_images.md
+      - Implement custom vision models: vision/implement_custom_vision.md
+      - Analyze videos: vision/analyze_videos.md
+    - Implement natural language processing solutions (15-20%):
+      - Analyze and translate text: language/analyze_translate_text.md
+      - Process and translate speech: language/process_translate_speech.md
+      - Implement custom language models: language/implement_custom_models.md
+    - Implement knowledge mining and information extraction solutions (15-20%):
+      - Implement an Azure AI Search solution: knowledge/implement_ai_search.md
+      - Implement an Azure AI Document Intelligence solution: knowledge/implement_ai_document_intelligence.md
+      - Extract information with Azure AI Content Understanding: knowledge/extract_ai_content_understanding.md
+  - Practice Exams: practice_exams.md
+  # - Tags: tags.md
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.carbonlogiq.io
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/ajkelleher/
+    - icon: fontawesome/brands/x-twitter 
+      link: https://x.com/CarbonLogiQ
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/carbonlogiq.bsky.social
+    - icon: fontawesome/brands/github
+      link: https://github.com/andrew-kelleher
+
+# plugins:
+#   - tags
