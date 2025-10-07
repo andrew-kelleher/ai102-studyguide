@@ -1,8 +1,7 @@
 site_name: Microsoft AI-102 Certification Study Guide
 
-repo_name: andrew-kelleher/az102-studyguide-poc
-# TODO update to correct URL
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: andrew-kelleher/ai102-studyguide
+repo_url: https://github.com/andrew-kelleher/ai102-studyguide
 
 theme:
   name: material
