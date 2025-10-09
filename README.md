@@ -1,4 +1,4 @@
-# ai102-studyguide-poc
+# ai102-studyguide
 
 Unofficial study guide for the Microsoft AI-102 AI Engineer certification exam.
 
