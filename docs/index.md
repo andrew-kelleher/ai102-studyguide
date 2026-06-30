@@ -6,6 +6,8 @@ tags:
 # AI‑102 Study Notes – Start Here :material-robot: 
 
 ## Introduction
+
+
 When I was studying for the AI-102 exam I took a *lot* of notes. I've tidied these up and added these to the **Exam topics** section, where you'll find study notes, tips etc. for each topic. It also includes links to the official Microsoft docs for more detail where needed. Where I've found a particuarly useful GitHub repo or blog post, I've included that as well.
 
 Happy studying and good luck with the exam! :material-robot:
@@ -14,6 +16,9 @@ Happy studying and good luck with the exam! :material-robot:
     Use the search bar above to quickly find an exam topic, Azure AI service etc.
 
 ## Exam Overview
+!!! warning "Certification Retiring"
+    This exam is due to be retired by June 30, 2026. You will no longer be able to earn or renew this certification after this date.
+
 The AI-102 exam is the only exam needed to obtain the **Microsoft Certified: Azure AI Engineer Associate** certification. 
 
 [According](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/) to Microsoft -
